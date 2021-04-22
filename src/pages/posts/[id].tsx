@@ -33,7 +33,6 @@ export const getServerSideProps: GetServerSideProps = async (
       },
     },
   });
-  console.log("🚀 ~ file: [id].tsx ~ line 31 ~ post", post);
 
   return { props: { post } };
 };
